@@ -1,0 +1,346 @@
+{
+  "slug": "nano-banana-pro",
+  "title": "Nano Banana Pro",
+  "subtitle": "Uma campanha de marca, do produto à entrega",
+  "description": "Organize referências, preserve o produto e construa uma campanha com linguagem visual coerente. Aprenda a gerar, editar e conferir cada peça.",
+  "hours": "4 h de estudo guiado + prática",
+  "project": "Campanha fictícia Brisa: três fotos de produto, três cenas com personagem, uma peça diagramada, um infográfico e um storyboard.",
+  "modules": [
+    {
+      "title": "Prepare o modelo, a encomenda e as referências",
+      "promise": "Você vai configurar um teste de campanha com papéis claros para cada referência.",
+      "prompt": "Crie uma fotografia de uma garrafa artesanal verde fosca com tampa preta, sobre uma mesa creme. A marca fictícia Brisa quer comunicar uma pausa tranquila no cotidiano. Mostre o produto inteiro, com luz suave de janela lateral e fundo simples. Preserve espaço livre para texto acrescentado depois. Formato 4:3. Não inclua letras nem outros produtos.",
+      "verify": "Confira a seleção do modelo na interface. Registre o nome e a data; baixe a imagem-base e verifique a forma antes de criar variações.",
+      "topics": [
+        {
+          "title": "Nano Banana é uma família",
+          "concept": "Nano Banana Pro é o modelo Gemini 3 Pro Image. Modelo é o sistema que produz a imagem; Gemini é uma interface para usá-lo. O nome Pro no seletor de conversa não comprova sozinho qual modelo gerou a imagem.",
+          "why": "No Gemini, uma criação pode usar Nano Banana 2. A ajuda oficial descreve Refazer com Pro para contas elegíveis. Confira o nome informado no resultado.",
+          "practice": "Abra gemini.google.com e procure a opção de criar imagem. Confira a ajuda oficial ligada no fim desta aula. Registre o modelo disponível. Se Pro não aparecer, anote isso sem atribuir os resultados a ele.",
+          "caution": "Acesso depende da conta, do plano e do país. O curso não promete gratuidade nem quantidade fixa de imagens.",
+          "visual": "pipeline"
+        },
+        {
+          "title": "Objeto, contexto e técnica",
+          "concept": "Objeto é o assunto que deve permanecer reconhecível. Contexto é o ambiente e a ação. Técnica reúne escolhas de enquadramento, luz, formato e acabamento. Essa ordem ajuda a organizar o pedido sem uma lista desordenada de adjetivos.",
+          "why": "O objeto pode ficar bonito e ainda assim perder características importantes. Começar por identidade e função deixa explícito o que não pode ser sacrificado pelo estilo.",
+          "practice": "Descreva a garrafa em uma frase, a situação em outra e a luz em uma terceira. Faça uma primeira tentativa simples antes de acrescentar personagem, texto ou cenário complexo.",
+          "caution": "A ordem do prompt organiza sua intenção, mas não é um algoritmo de prioridade garantido. Confira o resultado em vez de confiar no comprimento da instrução.",
+          "visual": "layers"
+        },
+        {
+          "title": "O resumo da encomenda da campanha Brisa",
+          "concept": "Campanha é um conjunto de peças ligadas por uma ideia. Nosso conceito é uma pausa cotidiana com garrafas de uso cotidiano. Público, finalidade, linguagem e lista de entregas precisam estar claros antes da geração.",
+          "why": "Uma imagem avulsa pode explorar livremente. Uma campanha precisa continuar reconhecível quando mudar de formato ou de cena.",
+          "practice": "Escreva as características fixas: corpo cilíndrico verde fosco, tampa preta, fundo creme e blusa ocre. Defina o que cada peça vai comunicar: forma, acabamento, uso ou narrativa.",
+          "caution": "Brisa é um exercício fictício. Não acrescente promessas de capacidade, origem ou benefícios físicos que o resumo da encomenda não informou.",
+          "visual": "brief"
+        },
+        {
+          "title": "Monte um pequeno kit de referências",
+          "concept": "Kit é um conjunto organizado de arquivos com papéis distintos: produto, personagem, ambiente e direção visual. Imagens nítidas e recortes claros ajudam a indicar o que aproveitar.",
+          "why": "Enviar tudo de uma vez pode misturar responsabilidades. Começar com poucas referências facilita perceber qual delas está levando o resultado para outra direção.",
+          "practice": "Salve a imagem-base do produto e uma ficha de paleta. Nomeie os arquivos. Antes de gerar, escreva qual imagem define forma e qual define apenas luz ou composição.",
+          "caution": "Se a plataforma usar nomes como imagem 1 ou referências anexadas, adapte o texto ao mecanismo real. Não invente um marcador que a ferramenta não reconhece.",
+          "visual": "references"
+        },
+        {
+          "title": "Faça uma rodada de diagnóstico",
+          "concept": "Diagnóstico é uma tentativa curta para descobrir como a ferramenta lida com a tarefa. O objetivo inicial é observar aderência e capacidade de edição, não entregar a peça final.",
+          "why": "Detectar cedo uma dificuldade de forma ou referência evita construir uma campanha inteira em cima de uma base instável.",
+          "practice": "Gere o produto simples e peça uma pequena edição no fundo. Compare a garrafa nas duas versões. Registre o que mudou fora da região solicitada e se a ferramenta permite continuar a edição.",
+          "caution": "Não confunda uma única tentativa boa com confiabilidade universal. Guarde também o desvio observado; ele orientará suas revisões posteriores.",
+          "visual": "compare"
+        },
+        {
+          "title": "Planeje tentativas e arquivos",
+          "concept": "Um orçamento de tentativas define quantas explorações você fará antes de rever a estratégia. O custo real depende do serviço e do plano. Uma pasta de aprovadas evita usar versões antigas por engano.",
+          "why": "A campanha exige repetição, e refazer tudo sem registro aumenta o trabalho. Separar exploração e produção final torna cada rodada mais objetiva.",
+          "practice": "Para o exercício, planeje três hipóteses de composição e uma rodada de revisão para a escolhida. Registre tentativas e consumo mostrado pela ferramenta. Salve originais e aprovadas em pastas separadas.",
+          "caution": "Se uma hipótese falhar repetidamente, simplifique o pedido ou troque a referência. Não transforme o número sugerido de tentativas em gasto obrigatório.",
+          "visual": "archive"
+        }
+      ]
+    },
+    {
+      "title": "Produto e personagem: uma base consistente",
+      "promise": "Você vai aprovar o produto e uma personagem fictícia antes de expandir as cenas.",
+      "prompt": "Use a referência anexada da garrafa Brisa para preservar seu corpo verde fosca, sua tampa preta e sua borda. Crie uma fotografia de uma ceramista adulta fictícia com cabelo curto grisalho, camisa azul simples e avental bege, segurando a garrafa com naturalidade em um ateliê. Luz suave de janela lateral, enquadramento médio, câmera na altura do rosto. Não inclua texto. Mantenha o produto inteiro e as mãos anatomicamente plausíveis.",
+      "verify": "Anexe a garrafa aprovada. Confira contato da mão, número de dedos visíveis, tampa, escala e identidade. Salve a personagem aprovada como nova referência.",
+      "topics": [
+        {
+          "title": "A ficha do produto",
+          "concept": "A ficha do produto reúne contorno, cor, material e detalhes obrigatórios. A garrafa Brisa é verde fosca, cilíndrica e tem tampa preta. Capacidade, isolamento e origem não foram definidos: não devem aparecer como fatos.",
+          "why": "O modelo pode preservar a ideia de garrafa e mudar o objeto específico. Uma ficha permite distinguir variação de enquadramento de alteração indevida do produto.",
+          "practice": "Anote três regiões da foto do produto: tampa, corpo e base. Para cada uma, registre um sinal reconhecível. Use essa lista em toda aprovação.",
+          "caution": "As cenas do curso ilustram decisões, não são referências exatas da campanha. Para fidelidade a um produto real, use fotografias próprias dele.",
+          "visual": "identity"
+        },
+        {
+          "title": "Três vistas que acrescentam informação",
+          "concept": "Vista frontal mostra proporções; vista em três quartos revela volume e tampa; detalhe mostra material. Cada vista precisa ter uma finalidade no conjunto.",
+          "why": "Três ângulos quase iguais ocupam espaço sem ampliar a compreensão. Escolher funções distintas cria uma apresentação de produto mais informativa.",
+          "practice": "Produza uma vista frontal, uma em três quartos e um detalhe. Anexe a mesma referência aprovada a cada pedido. Compare espessura da borda e proporção da tampa, mesmo quando parte do objeto estiver oculta.",
+          "caution": "Uma nova vista revela regiões que não estavam na referência. A IA pode inventá-las; confira com outras fotos quando a fidelidade for necessária.",
+          "visual": "framing"
+        },
+        {
+          "title": "Crie uma personagem fictícia com intenção",
+          "concept": "Personagem é a pessoa representada na campanha. Ela precisa combinar com a situação e ter características suficientes para ser reconhecida, sem depender de copiar uma pessoa real.",
+          "why": "Um rosto consistente não resolve sozinho a narrativa. Figurino, gesto e relação com o produto também comunicam o papel da personagem.",
+          "practice": "Use a mulher fictícia adulta descrita na ficha desta aula: cabelo cacheado curto e blusa ocre. Gere uma base com rosto e cabelo visíveis. Registre as características observadas antes de reutilizar a imagem.",
+          "caution": "O curso não exige misturar rostos de pessoas reais. Criar uma personagem fictícia por descrição evita depender de referências cuja autorização você desconhece.",
+          "visual": "subject"
+        },
+        {
+          "title": "Pessoa e produto no mesmo quadro",
+          "concept": "Uma interação plausível precisa de escala, apoio e contato coerentes. Mãos próximas de tampas e bordas são regiões que merecem inspeção específica.",
+          "why": "A imagem pode parecer convincente em miniatura e mostrar dedos fundidos ou produto deformado quando ampliada. O erro compromete o uso da peça.",
+          "practice": "Gere primeiro uma pose simples com duas referências claramente atribuídas: personagem e produto. Confira mão, tampa e sombra de contato. Só depois tente ações mais complexas.",
+          "caution": "Não aceite a preservação do rosto como prova de que tudo foi preservado. Produto, anatomia e contato precisam de avaliações separadas.",
+          "visual": "zoom"
+        },
+        {
+          "title": "Ângulo e lente como linguagem visual",
+          "concept": "Ângulo descreve de onde a cena é observada. Termos de lente sugerem um repertório visual, mas um gerador não precisa obedecer às leis de uma câmera física. Descrever o efeito desejado é essencial.",
+          "why": "Pedir uma marca de câmera pode acrescentar associações, mas não explica quanto cenário deve aparecer nem onde o produto estará.",
+          "practice": "Observe um objeto próprio na altura da mesa e depois por cima. Escreva o efeito desejado: tampa visível, corpo inteiro ou relação com a mesa. Teste essas duas posições com a câmera do celular.",
+          "caution": "Não trate 85 mm, macro ou anamórfica como selo automático de realismo. Confira distorção, foco e composição no arquivo produzido.",
+          "visual": "framing"
+        },
+        {
+          "title": "Aprove uma base antes de variar",
+          "concept": "Uma base aprovada é uma versão que atende aos características fixas. Ela se torna ponto de partida para novas cenas e para edição, sempre acompanhada de uma ficha de decisões.",
+          "why": "Variar uma base com erro multiplica o retrabalho. É melhor resolver forma e identidade antes de explorar ambientes e materiais.",
+          "practice": "Monte uma folha de contato com candidatas. Escolha a mais útil como referência, não apenas a mais dramática. Guarde o arquivo original de maior qualidade e registre a aprovação.",
+          "caution": "Evite referências com elementos importantes cortados ou escondidos. A imagem-base precisa permitir inspeção das características que deseja repetir.",
+          "visual": "contact"
+        }
+      ]
+    },
+    {
+      "title": "Controle de marca: cor, texto e hierarquia",
+      "promise": "Você vai separar geração visual de acabamento exato e montar uma peça de marca legível.",
+      "prompt": "Crie uma proposta de composição para a marca fictícia Brisa usando a imagem do produto anexada. Produto no terço direito, fundo creme, luz suave, área livre lateral. Inclua apenas o título “AURORA” e a frase “Uma pausa à sua maneira”, com letras grandes e legíveis. Paleta de referência: verde fosca #B97050, creme #EFE4D3 e azul #274654. Não acrescente benefícios, selos, números ou informações comerciais.",
+      "verify": "Confira toda letra, pontuação e contraste. O pedido de HEX e fonte não garante precisão. Para a entrega, reconstrua texto e marca em camadas editáveis.",
+      "topics": [
+        {
+          "title": "Um guia de marca enxuto",
+          "concept": "Guia de marca é um documento que registra escolhas recorrentes: cores, tipografia, uso do nome, linguagem de imagem e restrições. Ele orienta o conjunto e reduz decisões contraditórias.",
+          "why": "Sem guia, cada geração pode sugerir uma marca diferente. Um sistema simples já permite avaliar se uma peça pertence à campanha.",
+          "practice": "Monte uma página com paleta, nome Brisa, frase principal, exemplo aprovado e três restrições. Inclua fundo simples, produto legível e ausência de promessas inventadas.",
+          "caution": "Não transforme o guia numa lista de referências incompatíveis. Comece com poucas regras que possam ser demonstradas visualmente.",
+          "visual": "brief"
+        },
+        {
+          "title": "Cores: intenção e conferência",
+          "concept": "Uma cor digital pode ser registrada com seis sinais após #, como #66755B. Esse código é chamado HEX. Ele orienta a escolha, mas uma superfície iluminada pode parecer diferente. Para fundo de cor exata, use uma área sólida no editor.",
+          "why": "Uma campanha pode parecer coerente sem cada pixel ter o mesmo valor. Já um fundo de marca ou um logo pode precisar do código exato definido no editor.",
+          "practice": "Use a paleta Brisa no gerador como direção. Depois defina as cores de texto, formas e fundos sólidos no editor. Compare a imagem e o layout no dispositivo de uso.",
+          "caution": "Não amostre um reflexo do produto e conclua que toda a cor da marca está errada. Diferencie superfície iluminada de elemento gráfico sólido.",
+          "visual": "palette"
+        },
+        {
+          "title": "Texto gerado precisa de revisão",
+          "concept": "Renderização de texto é a capacidade de desenhar letras dentro da imagem. Mesmo modelos capazes de produzir palavras legíveis podem errar grafia, acentos, repetição ou distribuição.",
+          "why": "Uma frase curta pode parecer certa numa miniatura e estar errada na ampliação. O processo precisa prever leitura humana de cada palavra.",
+          "practice": "Se quiser testar letras no gerador, use: Crie uma peça quadrada com fundo creme e apenas a frase Brisa, uma pausa cotidiana. Confira palavra por palavra. Mantenha o texto editável no seu cartaz final.",
+          "caution": "Não repita promessas do acervo como texto perfeito. A conferência é parte da produção, inclusive quando a primeira tentativa parece correta.",
+          "visual": "hierarchy"
+        },
+        {
+          "title": "Hierarquia: uma mensagem principal",
+          "concept": "Hierarquia visual é a ordem em que os elementos atraem atenção. Tamanho, contraste, posição e espaço ajudam a criar uma entrada clara, uma explicação e um detalhe secundário.",
+          "why": "Quando tudo compete, nada orienta a leitura. Uma peça de produto precisa decidir se começa pelo objeto ou pela mensagem, conforme seu objetivo.",
+          "practice": "Faça duas versões com o mesmo conteúdo: título dominante e produto dominante. Observe em miniatura. Escolha a que comunica melhor a intenção do resumo da encomenda.",
+          "caution": "Não use apenas cor para distinguir importância. Tamanho, espaçamento e posição também precisam sustentar a leitura.",
+          "visual": "hierarchy"
+        },
+        {
+          "title": "Infográfico com dados fornecidos",
+          "concept": "Infográfico organiza informação por relações visuais. O gerador pode ajudar a compor, mas não deve inventar medidas, propriedades ou fatos do produto.",
+          "why": "Uma ilustração de aparência técnica pode dar credibilidade a algo falso. Separar dados fornecidos de elementos decorativos evita essa confusão.",
+          "practice": "Desenhe um infográfico com três partes observáveis: tampa, corpo e base. Faça as linhas apontarem para as regiões corretas. Escreva os rótulos separadamente para poder corrigir.",
+          "caution": "Não gere capacidade, temperatura suportada ou tempo de fabricação sem dados reais. O exercício trabalha anatomia visual do objeto, não especificação técnica.",
+          "visual": "identity"
+        },
+        {
+          "title": "Finalize em camadas",
+          "concept": "Camadas separam fotografia, texto, logo, fundo e elementos gráficos. Essa organização permite ajustes de formato e revisão sem destruir o material aprovado.",
+          "why": "Uma composição gerada numa imagem única pode ser difícil de adaptar. Manter elementos editáveis facilita corrigir letras e ampliar margens.",
+          "practice": "Monte uma peça com imagem-base, título e frase em camadas. Exporte uma cópia e abra no celular. Verifique se o título continua legível e se o produto está livre de sobreposição.",
+          "caution": "Guarde o arquivo editável além da exportação. Uma imagem final achatada não substitui a fonte de trabalho.",
+          "visual": "layout"
+        }
+      ]
+    },
+    {
+      "title": "Exploração criativa e storyboard",
+      "promise": "Você vai explorar variações mantendo uma ideia e planejar uma história em seis quadros.",
+      "prompt": "Use as referências aprovadas da personagem e da garrafa Brisa. Crie um storyboard esquemático de seis quadros para planejar uma sequência: 1 ateliê ao amanhecer; 2 ceramista escolhe a garrafa; 3 detalhe do acabamento; 4 mão apoia a garrafa na mesa; 5 pausa diante da janela; 6 produto com espaço livre para mensagem. Preserve produto, figurino e paleta. Sem texto dentro dos quadros. Esta imagem é planejamento, não entrega final.",
+      "verify": "Confira ordem, quantidade de quadros e continuidade. Numere no editor se necessário. Depois produza cada imagem final separadamente.",
+      "topics": [
+        {
+          "title": "Explorar sem perder a pergunta",
+          "concept": "Exploração é a busca de alternativas para uma decisão. Ela fica mais útil quando responde a uma pergunta: fundo mais simples melhora o produto? Um tom frio muda a sensação da cena?",
+          "why": "Gerar muitas imagens sem hipótese produz variedade, mas pouca aprendizagem. Um experimento pequeno permite explicar o que mudou.",
+          "practice": "Escolha uma variável: luz, material do fundo ou enquadramento. Faça três versões e compare com o mesmo resumo da encomenda. Escreva uma conclusão provisória.",
+          "caution": "Uma diferença observada em três imagens não é uma lei universal. Use-a para decidir a próxima rodada do seu projeto.",
+          "visual": "compare"
+        },
+        {
+          "title": "Troque ambiente com continuidade",
+          "concept": "Continuidade é preservar características entre cenas. Neste exercício, rosto, cabelo, blusa ocre e produto ficam fixos. Só o ambiente muda. Em outro projeto, uma troca de roupa pode ser intencional, desde que seja planejada.",
+          "why": "O ambiente precisa parecer compatível com o objeto e com a narrativa. Uma sombra de estúdio em uma cena externa pode denunciar a montagem.",
+          "practice": "Peça a mesma garrafa em uma mesa próxima à janela e depois em uma varanda coberta. Preserve forma e paleta. Confira ponto de apoio, direção da luz e escala.",
+          "caution": "Uma mudança de ambiente pode exigir mudança legítima de iluminação. Registre o que deve permanecer e o que deve se adaptar.",
+          "visual": "light"
+        },
+        {
+          "title": "Uma função para cada quadro",
+          "concept": "Antes de desenhar, escolha a informação que cada quadro acrescenta. Ambiente situa o lugar; escolha mostra intenção; uso mostra escala. Detalhe explica uma parte; conjunto mostra contexto; encerramento reserva a mensagem.",
+          "why": "A sequência perde força quando repete a mesma informação. Definir a função permite variar recortes sem trocar a identidade do produto.",
+          "practice": "Use uma imagem própria como base e peça uma interpretação em recortes de papel. Compare silhueta e posição do objeto antes e depois. Identifique a versão como experimento visual.",
+          "caution": "Não apresente a reestilização como foto do material real do produto. Uma garrafa de papel é uma interpretação, não uma mudança de especificação.",
+          "visual": "texture"
+        },
+        {
+          "title": "Storyboard: função de cada quadro",
+          "concept": "Storyboard é um planejamento visual de uma sequência. Ele mostra o que acontece e como cada momento será enquadrado antes de produzir os arquivos finais.",
+          "why": "Sem planejamento, a campanha pode repetir informações e pular transições. O storyboard deixa essas lacunas visíveis com pouco investimento.",
+          "practice": "Preencha seis quadros com ação, plano e objetivo. Use o exemplo do módulo e confira se existe começo, desenvolvimento e fechamento. Reordene se a sequência ficar confusa.",
+          "caution": "Este curso entrega imagens estáticas e planejamento. Não é necessário gerar vídeo para demonstrar que a sequência funciona.",
+          "visual": "storyboard"
+        },
+        {
+          "title": "Do quadro pequeno ao arquivo final",
+          "concept": "Um quadro numa colagem ocupa apenas parte da resolução total. Recortá-lo pode ajudar como referência, mas não cria novos detalhes confiáveis. A imagem final precisa de produção e revisão próprias.",
+          "why": "Aprovar a história numa grade é diferente de aprovar cada arquivo para uso. Essa separação impede confundir rascunho com entrega.",
+          "practice": "Selecione um quadro, descreva sua ação e gere-o individualmente com as referências originais de produto e personagem. Use o storyboard para composição, quando a ferramenta permitir.",
+          "caution": "Não dependa apenas de um recorte minúsculo para manter identidade. Volte às referências de maior qualidade e confira detalhes depois da ampliação.",
+          "visual": "resolution"
+        },
+        {
+          "title": "Revise a sequência como conjunto",
+          "concept": "A revisão de continuidade observa produto, figurino, paleta, posição e sentido da ação. O ritmo de uma sequência estática também depende de alternar vistas amplas e detalhes.",
+          "why": "Um único quadro fora da linguagem pode quebrar a unidade, mesmo que seja bonito. O conjunto precisa ser legível sem explicação longa.",
+          "practice": "Monte a folha de contato e descreva em voz alta a função de cada imagem. Remova repetições e corrija os desvios que fazem parecer outra campanha.",
+          "caution": "Não use a mesma imagem seis vezes como prova de consistência. Consistência é manter identidade enquanto a cena cumpre funções diferentes.",
+          "visual": "contact"
+        }
+      ]
+    },
+    {
+      "title": "Edições, referências múltiplas e adaptações",
+      "promise": "Você vai aplicar mudanças pontuais, controlar deriva e adaptar a campanha a novos formatos.",
+      "prompt": "Edite a cena anexada da campanha Brisa. Preserve a personagem, o figurino, a garrafa, a pose e a direção da luz. Altere somente o fundo para uma parede creme lisa, mantendo a mesa e a sombra de contato. Deixe espaço livre lateral. Não acrescente texto nem novos objetos.",
+      "verify": "Compare rosto, cabelo, tampa, mãos, roupa e sombra com a versão anterior. Se algo fora do fundo mudar, registre e refine a edição ou volte à base.",
+      "topics": [
+        {
+          "title": "Edição por conversa",
+          "concept": "Algumas ferramentas permitem continuar a partir de uma imagem e pedir mudanças em linguagem natural. Isso favorece refinamento, mas cada rodada ainda pode introduzir diferenças não solicitadas.",
+          "why": "O histórico da conversa ajuda a contextualizar, porém não substitui a conferência. Quanto mais etapas, mais importante guardar pontos aprovados.",
+          "practice": "Faça uma edição pequena, salve e compare. Em vez de dizer melhore tudo, descreva o elemento, a mudança e os itens a preservar. Nomeie a versão aprovada antes de avançar.",
+          "caution": "Não acumule várias correções em cadeia se a imagem estiver se afastando da base. Retome uma versão aprovada com uma instrução mais localizada.",
+          "visual": "cycle"
+        },
+        {
+          "title": "Controle a deriva de identidade",
+          "concept": "Deriva é o afastamento gradual das características originais ao longo de gerações ou edições. Pode aparecer no rosto, na forma do produto ou na paleta.",
+          "why": "Um pequeno desvio por rodada pode resultar em outra personagem ou outro produto depois de várias edições. A comparação deve voltar ao original.",
+          "practice": "Coloque base e versão atual lado a lado. Confira cinco características fixas. Se houver desvio, use novamente a referência aprovada e peça uma única correção.",
+          "caution": "Comparar só com a versão imediatamente anterior pode esconder uma mudança acumulada. Mantenha o original sempre disponível.",
+          "visual": "identity"
+        },
+        {
+          "title": "Use referências com responsabilidades",
+          "concept": "Referências múltiplas funcionam melhor quando seus papéis são claros e compatíveis. Uma pode orientar pessoa, outra objeto e outra ambiente; o texto deve explicar essas relações.",
+          "why": "Conflitos entre arquivos podem levar o modelo a escolher características erradas. A solução pode ser remover uma referência, não acrescentar outra.",
+          "practice": "Crie uma tabela arquivo, papel e preservar. Use duas referências no primeiro teste e confira o resultado. Acrescente a terceira apenas quando a função estiver clara.",
+          "caution": "Não prometa que uma quantidade fixa funciona em toda interface. Limites e mecanismos de associação dependem do serviço e do modelo selecionado.",
+          "visual": "references"
+        },
+        {
+          "title": "Reestilize uma composição aprovada",
+          "concept": "Uma reestilização pode manter a disposição da cena e mudar a linguagem visual. Esse método é útil para explorar uma campanha ilustrada sem refazer toda a narrativa.",
+          "why": "Separar estrutura e acabamento permite estudar o efeito do estilo. O produto ainda precisa ser reconhecível dentro da proposta.",
+          "practice": "Use a colagem de planejamento ou um quadro próprio. Peça uma interpretação em geometria plana, preservando posições principais. Compare a silhueta e a hierarquia com o original.",
+          "caution": "Uma tradução de estilo pode alterar detalhes da identidade. Trate-a como uma nova candidata e revise com os mesmos critérios.",
+          "visual": "composition"
+        },
+        {
+          "title": "Adapte o formato com intenção",
+          "concept": "Adaptar não é apenas redimensionar. Um quadrado e uma peça vertical podem exigir reposicionar objeto, ampliar fundo e reorganizar texto. O conteúdo essencial deve continuar legível.",
+          "why": "Uma peça que funciona no desktop pode ficar apertada no celular. Planejar áreas livres facilita versões sem cobrir produto ou rosto.",
+          "practice": "Faça uma versão quadrada e uma vertical. Use recorte quando houver margem; expansão quando faltar área. Recoloque texto em camadas e confira o resultado em tamanho de uso.",
+          "caution": "Não estique a imagem para preencher um formato. Isso altera proporções e pode deformar produto e personagem.",
+          "visual": "formats"
+        },
+        {
+          "title": "Prepare o pacote editável",
+          "concept": "Um pacote editável reúne bases, finais e arquivos de diagramação. Também registra o que foi gerado, o que foi retocado e quais referências foram usadas.",
+          "why": "A campanha precisa continuar revisável. Uma nova frase ou formato não deveria exigir recomeçar todas as imagens.",
+          "practice": "Organize por função: produto, personagem, campanha e finais. Inclua uma ficha de geração por peça e um arquivo com as regras visuais. Guarde versões originais.",
+          "caution": "Exportar a jornada salva notas e progresso do curso, não os arquivos da campanha. Faça backup separado dos materiais produzidos.",
+          "visual": "archive"
+        }
+      ]
+    },
+    {
+      "title": "Projeto final: campanha Brisa",
+      "promise": "Você vai reunir as peças, conferir continuidade e apresentar o processo com clareza.",
+      "prompt": "Crie uma única imagem final da campanha fictícia Brisa. Use as referências aprovadas do produto e da ceramista. A personagem está junto à mesa do ateliê, com a garrafa visível em primeiro plano e espaço livre lateral para uma mensagem adicionada depois. Preserve figurino azul e bege, garrafa verde fosca e luz suave lateral. A cena deve comunicar uma pausa tranquila. Sem texto, selos ou informações comerciais.",
+      "verify": "Confira a imagem com a folha de contato. Depois acrescente o texto em camada editável e exporte no formato escolhido. Guarde a base sem texto.",
+      "topics": [
+        {
+          "title": "Confira a lista de entregas",
+          "concept": "A entrega inclui três imagens de produto e três cenas com personagem. Também inclui cartaz, infográfico de partes e planejamento de seis quadros. Algumas peças podem reutilizar bases aprovadas.",
+          "why": "Uma lista explícita permite concluir o projeto e avaliar se cada parte tem função. Reutilização planejada evita gerar material sem necessidade.",
+          "practice": "Marque quais bases já existem. Associe cada uma a uma entrega. Só gere o que falta ou precisa de correção; mantenha o storyboard como planejamento identificado.",
+          "caution": "Não conte arquivos duplicados com nomes diferentes como novas peças. Explique quando uma imagem-base sustenta mais de um layout.",
+          "visual": "checklist"
+        },
+        {
+          "title": "Faça uma revisão de identidade",
+          "concept": "A revisão compara cada peça com as referências aprovadas. Produto e personagem devem permanecer reconhecíveis, mesmo com mudanças de ação ou enquadramento.",
+          "why": "Uma campanha pode ter paleta consistente e ainda mostrar produtos diferentes. A identidade precisa de atenção própria.",
+          "practice": "Use a folha de contato e amplie os pontos críticos: rosto, cabelo, tampa e borda. Marque desvios por escrito e corrija os que impedem o reconhecimento.",
+          "caution": "Uma imagem impactante não compensa uma alteração do produto que o resumo da encomenda mandou preservar. Corrija antes de apresentar.",
+          "visual": "contact"
+        },
+        {
+          "title": "Revise texto e informação",
+          "concept": "A revisão editorial confere grafia, pontuação, dados, rótulos e relação entre legenda e imagem. No infográfico, cada seta deve apontar para a parte indicada.",
+          "why": "Erros de texto podem sobreviver à revisão visual quando o foco está nas fotos. A conferência precisa ser uma etapa deliberada.",
+          "practice": "Leia a peça com texto em voz alta. Confira a frase contra o resumo da encomenda, depois examine o infográfico. Verifique se não surgiram selos ou promessas não solicitadas.",
+          "caution": "Uma aparência profissional não torna uma informação verdadeira. Remova dados inventados e preserve apenas o que foi fornecido ou observado.",
+          "visual": "hierarchy"
+        },
+        {
+          "title": "Apresente o antes e depois",
+          "concept": "O estudo de caso explica uma decisão e mostra a diferença produzida. Um bom par mantém escala comparável e identifica o problema resolvido.",
+          "why": "A apresentação de processo torna o aprendizado demonstrável. Ela mostra como você escolheu, não apenas que conseguiu gerar imagens.",
+          "practice": "Escolha uma correção relevante, como limpar o fundo ou preservar a tampa. Mostre base, intervenção e final com uma frase de evidência. Identifique a marca como fictícia.",
+          "caution": "Não invente aprovação de cliente, alcance ou conversão. Apresente o projeto como exercício autoral com IA.",
+          "visual": "compare"
+        },
+        {
+          "title": "Organize e exporte",
+          "concept": "A entrega precisa de nomes claros, dimensões verificadas e uma separação entre arquivos finais e fontes editáveis. Um arquivo de instruções explica o conteúdo do pacote.",
+          "why": "Um trabalho difícil de encontrar ou revisar gera retrabalho, mesmo quando as imagens estão boas. Organização é parte da produção.",
+          "practice": "Exporte peças finais, abra cada uma e confira dimensões. Inclua fontes de diagramação, prompts e referências autorizadas. Guarde uma cópia das bases sem texto.",
+          "caution": "Não entregue arquivos de teste junto dos finais sem identificação. Não substitua o arquivo editável pela única exportação achatada.",
+          "visual": "archive"
+        },
+        {
+          "title": "Avalie a capacidade adquirida",
+          "concept": "O objetivo é conseguir transformar resumo da encomenda em série, preservar identidade, editar desvios e explicar decisões. Uma nota de leitura não comprova essas capacidades.",
+          "why": "Repetir o método em outro produto mostra se você aprendeu o processo ou apenas seguiu um exemplo. A reflexão define a próxima prática.",
+          "practice": "Troque mentalmente a garrafa por uma luminária. Descreva o que muda em forma, reflexo e pontos de apoio. Liste uma tarefa que realizou e outra que ainda precisa executar.",
+          "caution": "A qualidade do curso não foi medida em um teste com alunos. Use sua entrega e as evidências do processo para avaliar o próprio avanço.",
+          "visual": "cycle"
+        }
+      ]
+    }
+  ]
+}

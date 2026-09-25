@@ -1,0 +1,69 @@
+{
+  "id": "nano-banana-pro-v62",
+  "titulo": "Nano Banana Pro v6.2 — Campanha de Marca Completa",
+  "titulo_html": "Uma campanha com <em>identidade</em>",
+  "curso_curto": "Nano Banana v6.2",
+  "kicker": "Nano Banana Pro v6.2 · 6 módulos · 18 aulas",
+  "lead": "Organize referências, preserve o produto e construa uma campanha com linguagem visual coerente. Planeje, produza e revise cada peça com critérios claros.",
+  "imagem_trilha": "assets/img/trilha.webp",
+  "alt_trilha": "Artesã e comerciante organizam uma caneca de cerâmica, fundo e luz para uma imagem de produto.",
+  "rodape": "Nano Banana Pro v6.2 · INEMA.CLUB PRO · <a href=\"landing.html\">sobre o curso</a>",
+  "landing": "landing.html",
+  "glossario": true,
+  "modulos": [
+    {
+      "titulo": "Módulo 1 · Prepare o modelo, a encomenda e as referências",
+      "resumo": "Você vai configurar um teste de campanha com papéis claros para cada referência.",
+      "aulas": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "titulo": "Módulo 2 · Produto e personagem: uma base consistente",
+      "resumo": "Você vai aprovar o produto e uma personagem fictícia antes de expandir as cenas.",
+      "aulas": [
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "titulo": "Módulo 3 · Controle de marca: cor, texto e hierarquia",
+      "resumo": "Você vai separar geração visual de acabamento exato e montar uma peça de marca legível.",
+      "aulas": [
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "titulo": "Módulo 4 · Exploração criativa e storyboard",
+      "resumo": "Você vai explorar variações mantendo uma ideia e planejar uma história em seis quadros.",
+      "aulas": [
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "titulo": "Módulo 5 · Edições, referências múltiplas e adaptações",
+      "resumo": "Você vai aplicar mudanças pontuais, controlar deriva e adaptar a campanha a novos formatos.",
+      "aulas": [
+        13,
+        14,
+        15
+      ]
+    },
+    {
+      "titulo": "Módulo 6 · Projeto final: campanha Brisa",
+      "resumo": "Você vai reunir as peças, conferir continuidade e apresentar o processo com clareza.",
+      "aulas": [
+        16,
+        17,
+        18
+      ]
+    }
+  ]
+}
