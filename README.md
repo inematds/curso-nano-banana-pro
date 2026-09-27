@@ -28,10 +28,28 @@ node /caminho/formato-curso-v6/scripts/testar-motor.cjs curso.html
 ```
 
 Os verificadores usam Playwright; `PLAYWRIGHT_PATH` pode indicar sua instalação.
-O formato educacional é v6.2; a versão inicial do conteúdo é 1.0.0.
+O formato educacional é v6.2; a versão do conteúdo é 1.1.0.
 
 ## Mais no INEMA.CLUB
 
 - [Ficha do curso](https://www.inema.club/cursos/284-nano-banana-pro-v6-2-campanha-de-marca-completa/)
 - [Guia para aprender IA](https://www.inema.club/aprender-inteligencia-artificial/)
 - [Catálogo](https://www.inema.club/cursos/)
+
+## English / Español
+
+[English](https://inematds.github.io/curso-nano-banana-pro/en/) · [Español](https://inematds.github.io/curso-nano-banana-pro/es/)
+
+Textos traduzidos com GPT-6 Luna por subagentes nativos da assinatura Codex, sem API externa. Ilustrações originais compartilhadas; progresso e anotações separados por idioma.
+
+Após montar o português, reaplique os catálogos salvos:
+
+```sh
+python3 scripts/i18n_local.py build .
+python3 scripts/verify_i18n.py .
+node scripts/check_i18n_browser.cjs . /tmp/curso-i18n-checks
+```
+
+Requer Python/BeautifulSoup e os pacotes locais Babel/Playwright indicados nos scripts. A montagem não chama modelos nem redes. Mudanças na fonte PT exigem revisar os catálogos `i18n/`. O motor oficial `assets/curso.js` é preservado; a proteção de importação é gerada em `assets/curso-i18n.js` e nas edições traduzidas.
+
+Evidências em `context/validacao-i18n.md`. Revisões por agentes são simuladas, não testes com alunos reais.
